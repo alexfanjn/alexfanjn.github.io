@@ -9,19 +9,19 @@
     
         <meta name="keywords" content="Machine Learning" />
     
-    <meta name="description" content="[toc] 1.常见知识   不等于   ~= ，不是 !=   使用ps1(&amp;quot;xxx&amp;quot;)=====&amp;gt;改变提示方式   加上分号(；)可以阻止打印   生成一个从1到2，步长为0.1的 行向量    rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）   hist（）命令 ：生成一个直方图，可以看出，满足高斯分布    eye（n）：">
+    <meta name="description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta name="keywords" content="Machine Learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Andrew Ng机器学习笔记之Octave教程">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/index.html">
 <meta property="og:site_name" content="JY Fang‘s Personal Blog">
-<meta property="og:description" content="[toc] 1.常见知识   不等于   ~= ，不是 !=   使用ps1(&amp;quot;xxx&amp;quot;)=====&amp;gt;改变提示方式   加上分号(；)可以阻止打印   生成一个从1到2，步长为0.1的 行向量    rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）   hist（）命令 ：生成一个直方图，可以看出，满足高斯分布    eye（n）：">
+<meta property="og:description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/2018/05/07/Andrew%20Ng机器学习笔记之Octave教程/1525694909986.png">
 <meta property="og:updated_time" content="2018-05-07T12:45:42.662Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Andrew Ng机器学习笔记之Octave教程">
-<meta name="twitter:description" content="[toc] 1.常见知识   不等于   ~= ，不是 !=   使用ps1(&amp;quot;xxx&amp;quot;)=====&amp;gt;改变提示方式   加上分号(；)可以阻止打印   生成一个从1到2，步长为0.1的 行向量    rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）   hist（）命令 ：生成一个直方图，可以看出，满足高斯分布    eye（n）：">
+<meta name="twitter:description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta name="twitter:image" content="http://yoursite.com/2018/05/07/Andrew%20Ng机器学习笔记之Octave教程/1525694909986.png">
     
 
@@ -71,13 +71,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">Home</a>
+                                    <a class="main-nav-list-link" href="/">Inici</a>
                                 </li>
                             
                                         
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
                                 </li>
                             
                         </ul>
@@ -85,7 +85,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -106,8 +106,8 @@
         TRANSLATION: {
             POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'categories',
+            TAGS: 'etiquetes',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -133,7 +133,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    uncategorized
+    Sense categoria
     </h1>
 </div>
                         <div class="main-body-content">
@@ -170,239 +170,131 @@
         
         <div class="article-entry" itemprop="articleBody">
             <p>[toc]</p>
-<h2>1.常见知识</h2>
-<ul>
-<li>
-<p>不等于   ~= ，不是 !=</p>
+<h2 id="1-常见知识"><a href="#1-常见知识" class="headerlink" title="1.常见知识"></a>1.常见知识</h2><ul>
+<li>不等于   ~= ，不是 !=</li>
+<li>使用ps1(“xxx”)=====&gt;改变提示方式</li>
+<li>加上分号(；)可以阻止打印</li>
+<li><p>生成一个从1到2，步长为0.1的 行向量<br><img src="./1525694909986.png" alt=""></p>
 </li>
-<li>
-<p>使用ps1(&quot;xxx&quot;)=====&gt;改变提示方式</p>
+<li><p>rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）</p>
 </li>
-<li>
-<p>加上分号(；)可以阻止打印</p>
+<li><p>hist（）命令 ：生成一个直方图，可以看出，满足高斯分布<br><img src="./1525694936577.png" alt=""></p>
 </li>
-<li>
-<p>生成一个从1到2，步长为0.1的 行向量
-<img src="./1525694909986.png" alt=""></p>
+<li><p>eye（n）：生成n阶单位矩阵</p>
 </li>
-<li>
-<p>rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）</p>
+<li>help 加上函数名  ： 可以获得相关函数的帮助文档</li>
+<li>size（矩阵名）：返回一个行和列的矩阵表示—&gt;即1 * 2 的矩阵</li>
+<li>length（xxx）：返回矩阵中较大的那个维度，一般对向量才使用</li>
+<li>pwd ：显示当前路径</li>
+<li>cd 命令：修改路径</li>
+<li>ls：显示当前路径的列表</li>
+<li><p>加载文件的两种方式 ：load 的不同使用<br><img src="./1525694990886.png" alt=""></p>
 </li>
-<li>
-<p>hist（）命令 ：生成一个直方图，可以看出，满足高斯分布
-<img src="./1525694936577.png" alt=""></p>
+<li><p>who ：显示当前在内存中存储的变量（包括文件名）</p>
 </li>
-<li>
-<p>eye（n）：生成n阶单位矩阵</p>
-</li>
-<li>
-<p>help 加上函数名  ： 可以获得相关函数的帮助文档</p>
-</li>
-<li>
-<p>size（矩阵名）：返回一个行和列的矩阵表示---&gt;即1 * 2 的矩阵</p>
-</li>
-<li>
-<p>length（xxx）：返回矩阵中较大的那个维度，一般对向量才使用</p>
-</li>
-<li>
-<p>pwd ：显示当前路径</p>
-</li>
-<li>
-<p>cd 命令：修改路径</p>
-</li>
-<li>
-<p>ls：显示当前路径的列表</p>
-</li>
-<li>
-<p>加载文件的两种方式 ：load 的不同使用
-<img src="./1525694990886.png" alt=""></p>
-</li>
-<li>
-<p>who ：显示当前在内存中存储的变量（包括文件名）</p>
-</li>
-<li>
-<p>whos：显示详细信息</p>
-</li>
-<li>
-<p>clear的用法</p>
-<ul>
+<li>whos：显示详细信息</li>
+<li>clear的用法<ul>
 <li>clear xxx：删除某个变量</li>
 <li>clear ： 删除全域</li>
 </ul>
 </li>
-<li>
-<p>v = x（1:10）---&gt;将x的前十个元素赋值给v</p>
+<li>v = x（1:10）—&gt;将x的前十个元素赋值给v</li>
+<li>save  目标文件名   变量(即待存储的值)：将某个元素存入目标文件</li>
+<li><p>以ascii格式存储文件<br><img src="./1525695111098.png" alt=""></p>
 </li>
-<li>
-<p>save  目标文件名   变量(即待存储的值)：将某个元素存入目标文件</p>
+<li><p>A (3,:)  ：获得A 的第三行的所有元素，‘：’代表某行或者某列的所有元素</p>
 </li>
-<li>
-<p>以ascii格式存储文件
-<img src="./1525695111098.png" alt=""></p>
-</li>
-<li>
-<p>A (3,:)  ：获得A 的第三行的所有元素，‘：’代表某行或者某列的所有元素</p>
-</li>
-<li>
-<p>A (3,:)  ：选取特定的行/列，使用 [ ]表示</p>
-</li>
-<li>
-<p>A（ : ）：将A 的所有元素放入一个列向量中</p>
-</li>
-<li>
-<p>合并两个矩阵</p>
-<ul>
+<li>A (3,:)  ：选取特定的行/列，使用 [ ]表示</li>
+<li>A（ : ）：将A 的所有元素放入一个列向量中</li>
+<li>合并两个矩阵<ul>
 <li>C = [A B]:水平合并</li>
 <li>C= [A ; B]:竖直合并</li>
 </ul>
 </li>
-<li>
-<p>A .* B ：将A和B中的对应元素相乘，不是矩阵乘法，注意 . 的加入（针对元素的操作）</p>
+<li>A .* B ：将A和B中的对应元素相乘，不是矩阵乘法，注意 . 的加入（针对元素的操作）</li>
+<li>% ：代表注释</li>
+<li>C ‘ :求C 的转置</li>
+<li><p>使用val表示max值，ind为其对应的索引（<em>例子中的a为列向量，若为多列矩阵，返回每一列的最大值</em>）<br><img src="./1525695235009.png" alt=""></p>
 </li>
-<li>
-<p>% ：代表注释</p>
-</li>
-<li>
-<p>C ' :求C 的转置</p>
-</li>
-<li>
-<p>使用val表示max值，ind为其对应的索引（<em>例子中的a为列向量，若为多列矩阵，返回每一列的最大值</em>）
-<img src="./1525695235009.png" alt=""></p>
-</li>
-<li>
-<p>a &lt; 3 ：返回矩阵对应元素进行 &lt;3 的判断的逻辑结果（0和1）
-<img src="./1525695257562.png" alt=""></p>
+<li><p>a &lt; 3 ：返回矩阵对应元素进行 &lt;3 的判断的逻辑结果（0和1）<br><img src="./1525695257562.png" alt=""></p>
 </li>
 </ul>
 <ul>
-<li>
-<p>find（xxx）,找到某个满足xxx表达式的索引，可用[r, c]来返回行和列的索引</p>
+<li>find（xxx）,找到某个满足xxx表达式的索引，可用[r, c]来返回行和列的索引</li>
+<li>sum( a)求和, prod(a )求乘积，</li>
+<li>floor()向上取整    ,ceil()向下取整</li>
+<li><p>求每一行/列的最值<br><img src="./1525695290963.png" alt=""></p>
 </li>
-<li>
-<p>sum( a)求和, prod(a )求乘积，</p>
+<li><p>因为对于一个多维矩阵来说，调用max返回的是各列对应的max值构成的矩阵，所以要想获得全局的max值，使用max（max（A））即可得到</p>
 </li>
-<li>
-<p>floor()向上取整	,ceil()向下取整</p>
-</li>
-<li>
-<p>求每一行/列的最值
-<img src="./1525695290963.png" alt=""></p>
-</li>
-<li>
-<p>因为对于一个多维矩阵来说，调用max返回的是各列对应的max值构成的矩阵，所以要想获得全局的max值，使用max（max（A））即可得到</p>
-</li>
-<li>
-<p>一般在参数中-&gt; 1代表列,2代表行  e.g. sum（A ,1）:计算列的和</p>
-</li>
-<li>
-<p>flipud（）：对矩阵进行垂直翻转</p>
-<ul>
-<li>e.g.求A 矩阵副对角线的和：
-<img src="./1525695335337.png" alt=""></li>
+<li>一般在参数中-&gt; 1代表列,2代表行  e.g. sum（A ,1）:计算列的和</li>
+<li>flipud（）：对矩阵进行垂直翻转<ul>
+<li>e.g.求A 矩阵副对角线的和：<br><img src="./1525695335337.png" alt=""></li>
 </ul>
 </li>
 </ul>
 <ul>
 <li>pinv（A ）: 求A 的伪逆矩阵</li>
 </ul>
-<h2>2.画图</h2>
-<ul>
-<li>使用plot（）进行画，==》plot（t，y1），参数分别代表x轴和y轴
-<img src="./1525695383275.png" alt=""></li>
+<h2 id="2-画图"><a href="#2-画图" class="headerlink" title="2.画图"></a>2.画图</h2><ul>
+<li>使用plot（）进行画，==》plot（t，y1），参数分别代表x轴和y轴<br><img src="./1525695383275.png" alt=""></li>
 </ul>
 <ul>
-<li>
-<p>hold on的用法，以及指定图示的颜色
-<img src="./1525695403101.png" alt=""></p>
+<li><p>hold on的用法，以及指定图示的颜色<br><img src="./1525695403101.png" alt=""></p>
 </li>
-<li>
-<p>xlabel，ylabel ：xy轴的标签</p>
+<li><p>xlabel，ylabel ：xy轴的标签</p>
 </li>
-<li>
-<p>legend（' ',' '）:添加图形的注解</p>
-</li>
-<li>
-<p><img src="./1525695428797.png" alt=""></p>
-</li>
+<li>legend（’ ‘,’ ‘）:添加图形的注解</li>
+<li><img src="./1525695428797.png" alt=""></li>
 </ul>
 <ul>
 <li>title（）：添加标题</li>
-<li>保留图片，可以修改路径
-<img src="./1525695453736.png" alt=""></li>
+<li>保留图片，可以修改路径<br><img src="./1525695453736.png" alt=""></li>
 </ul>
 <ul>
 <li>close ：关闭图像的命令</li>
-<li>生成两个图像，指定figure的参数
-<img src="./1525695475575.png" alt=""></li>
+<li>生成两个图像，指定figure的参数<br><img src="./1525695475575.png" alt=""></li>
 </ul>
 <ul>
-<li>使用子图的形式：subplot（1,2,1）：签名的1 ，2 代表 生成一个1*2的格子，后面的1代表我现在使用的是第一个格子。使用第二个格子：subplot（1,2,2）
-<img src="./1525695498760.png" alt=""></li>
+<li>使用子图的形式：subplot（1,2,1）：签名的1 ，2 代表 生成一个1*2的格子，后面的1代表我现在使用的是第一个格子。使用第二个格子：subplot（1,2,2）<br><img src="./1525695498760.png" alt=""></li>
 </ul>
 <ul>
-<li>
-<p>指定xy轴刻度范围
-<img src="./1525695518667.png" alt=""></p>
+<li><p>指定xy轴刻度范围<br><img src="./1525695518667.png" alt=""></p>
 </li>
-<li>
-<p>clf ： 清除一个图像</p>
+<li><p>clf ： 清除一个图像</p>
 </li>
-<li>
-<p>使用图像来表示矩阵</p>
+<li><p>使用图像来表示矩阵</p>
 <ul>
-<li>e.g. 灰度图
-<img src="./1525695547824.png" alt=""></li>
+<li>e.g. 灰度图<br><img src="./1525695547824.png" alt=""></li>
 </ul>
 </li>
-<li>
-<p>连续执行三个命令：使用，分隔开即可</p>
+<li><p>连续执行三个命令：使用，分隔开即可</p>
 </li>
 </ul>
-<h2>3.控制语句</h2>
-<ul>
-<li>
-<p>for：i  = 1:10，end;   (代码的空格没有影响)
-<img src="./1525695576309.png" alt=""></p>
+<h2 id="3-控制语句"><a href="#3-控制语句" class="headerlink" title="3.控制语句"></a>3.控制语句</h2><ul>
+<li><p>for：i  = 1:10，end;   (代码的空格没有影响)<br><img src="./1525695576309.png" alt=""></p>
 </li>
-<li>
-<p>同样的效果，使用indices代替1:10
-<img src="./1525695594079.png" alt=""></p>
+<li><p>同样的效果，使用indices代替1:10<br><img src="./1525695594079.png" alt=""></p>
 </li>
-<li>
-<p>while &amp; if   ：  记得if也要使用end语句
-<img src="./1525695611345.png" alt=""></p>
+<li><p>while &amp; if   ：  记得if也要使用end语句<br><img src="./1525695611345.png" alt=""></p>
 </li>
-<li>
-<p>disp( ):输出语句</p>
+<li><p>disp( ):输出语句</p>
 </li>
 </ul>
-<h2>4.函数</h2>
-<ul>
-<li>
-<p>添加搜索路径
-<img src="./1525695640818.png" alt=""></p>
+<h2 id="4-函数"><a href="#4-函数" class="headerlink" title="4.函数"></a>4.函数</h2><ul>
+<li><p>添加搜索路径<br><img src="./1525695640818.png" alt=""></p>
 </li>
-<li>
-<p>函数定义：
-<img src="./1525695658263.png" alt=""></p>
+<li><p>函数定义：<br><img src="./1525695658263.png" alt=""></p>
 </li>
-<li>
-<p>可以返回多个值：如上图</p>
+<li><p>可以返回多个值：如上图</p>
 </li>
 </ul>
-<h2>5.向量化</h2>
-<ul>
-<li>
-<p>未向量化：（octave 下标从1开始）
-<img src="./1525695682796.png" alt=""></p>
+<h2 id="5-向量化"><a href="#5-向量化" class="headerlink" title="5.向量化"></a>5.向量化</h2><ul>
+<li><p>未向量化：（octave 下标从1开始）<br><img src="./1525695682796.png" alt=""></p>
 </li>
-<li>
-<p>向量化
-<img src="./1525695697202.png" alt=""></p>
+<li><p>向量化<br><img src="./1525695697202.png" alt=""></p>
 </li>
-<li>
-<p>向量化实现线性回归：等价的两种方式：但是使用loops会比使用向量化费时得多
-<img src="./1525695713812.png" alt=""></p>
+<li><p>向量化实现线性回归：等价的两种方式：但是使用loops会比使用向量化费时得多<br><img src="./1525695713812.png" alt=""></p>
 </li>
 </ul>
 
@@ -412,7 +304,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/" data-id="cjgw9dvs10001gwo43ek456q0" class="article-share-link"><i class="fa fa-share"></i>Share</a>
+    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/" data-id="cjgwa56ia0004x4o4kyyhtewo" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -492,7 +384,7 @@
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>follow:</p>
+        <p>seguir:</p>
         <ul class="social-links">
             
         </ul>
@@ -503,7 +395,7 @@
     
     
         <a href="/2018/05/07/Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">older</strong>
+        <strong class="article-nav-caption">antic</strong>
         <p class="article-nav-title">Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
@@ -568,7 +460,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">arxius</h3>
         <div class="widget">
             <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">4</span></li></ul>
         </div>
@@ -580,7 +472,7 @@
             
                 
     <div class="widget-wrap widget-float">
-        <h3 class="widget-title">tag cloud</h3>
+        <h3 class="widget-title">etiqueta cloud</h3>
         <div class="widget tagcloud">
             <a href="/tags/Life/" style="font-size: 10px;">Life</a> <a href="/tags/Machine-Learning/" style="font-size: 20px;">Machine Learning</a>
         </div>
