@@ -66,13 +66,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">Home</a>
+                                    <a class="main-nav-list-link" href="/">Inici</a>
                                 </li>
                             
                                         
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">Quant a</a>
                                 </li>
                             
                         </ul>
@@ -80,7 +80,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Cercar" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -101,8 +101,8 @@
         TRANSLATION: {
             POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Categories',
-            TAGS: 'Tags',
+            CATEGORIES: 'categories',
+            TAGS: 'etiquetes',
             UNTITLED: '(Untitled)',
         },
         ROOT_URL: '/',
@@ -128,7 +128,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    <em class="page-title-link" data-url="home">Home</em>
+    <em class="page-title-link" data-url="home">Inici</em>
     </h1>
 </div>
                         <div class="main-body-content">
@@ -155,6 +155,56 @@
             <div class="category">
             
             </div>
+            <div class="date"><time datetime="2018-05-07T12:26:44.128Z" itemprop="datePublished">2018-05-07</time></div>
+        </div>
+        
+    
+        <h1 class="article-title" itemprop="name">
+        <a href="/2018/05/07/Andrew-Ng机器学习网课课程笔记之Octave教程/">Andrew Ng机器学习网课课程笔记之Octave教程</a>
+        </h1>
+    
+
+        <p class="article-excerpt">
+            常见知识
+
+
+不等于   ~= ，不是 !=
+
+
+使用ps1(&quot;xxx&quot;)=====&gt;改变提示方式
+
+
+加上分号(；)可以阻止打印
+
+
+生成一个从1到2，步长为0.1的 行向量
+
+
+
+rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）
+
+
+hist（）命令 ：生成一个直方图，可以看出，满足高斯分布
+
+
+
+eye（n）：生成n阶单位矩阵
+        </p>
+    </div>
+</article>
+    
+
+    
+    
+    
+    
+        <article class="article article-summary">
+    <div class="article-summary-inner">
+        
+        <div class="article-meta">
+            <div class="category">
+            
+            </div>
             <div class="date"><time datetime="2018-05-07T07:11:15.133Z" itemprop="datePublished">2018-05-07</time></div>
         </div>
         
@@ -166,19 +216,30 @@
 
         <p class="article-excerpt">
             1.介绍
-在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。
-随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式
 
-2. Gradient descent （梯度下降–多元）
-与单变量梯度下降相比，多
+在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。
+随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：
+
+转变为：
+
+ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式
+
+
+2. Gradient descent （梯度下降--多元）
+
+与单变量
         </p>
     </div>
 </article>
     
+        </div>
+    
 
     
     
     
+    
+        <div class="article-row">
     
         <article class="article article-summary">
     <div class="article-summary-inner">
@@ -198,7 +259,9 @@
 
         <p class="article-excerpt">
             1.什么是梯度下降
-在视频中， 作者以预测房价的例子作为介绍线性回归（linear**regression）问题，以线性回归来预测房价，在参数的选取上，作者用梯度下降来寻找最佳的参数。具体参数评估表达式如下所示：
+
+在视频中， 作者以预测房价的例子作为介绍线性回归（linearregression）问题，以线性回归来预测房价，在参数的选取上，作者用梯度下降来寻找最佳的参数。具体参数评估表达式如下所示：
+
 
 
 
@@ -207,14 +270,10 @@
     </div>
 </article>
     
-        </div>
-    
 
     
     
     
-    
-        <div class="article-row">
     
         <article class="article article-summary">
     <div class="article-summary-inner">
@@ -254,7 +313,7 @@
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>follow:</p>
+        <p>seguir:</p>
         <ul class="social-links">
             
         </ul>
@@ -271,6 +330,15 @@
         <h3 class="widget-title">recents</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
+                
+                    <li>
+                        
+                        <div class="item-inner">
+                            <p class="item-category"></p>
+                            <p class="item-title"><a href="/2018/05/07/Andrew-Ng机器学习网课课程笔记之Octave教程/" class="title">Andrew Ng机器学习网课课程笔记之Octave教程</a></p>
+                            <p class="item-date"><time datetime="2018-05-07T12:26:44.128Z" itemprop="datePublished">2018-05-07</time></p>
+                        </div>
+                    </li>
                 
                     <li>
                         
@@ -308,9 +376,9 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">archives</h3>
+        <h3 class="widget-title">arxius</h3>
         <div class="widget">
-            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">3</span></li></ul>
+            <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2018/05/">May 2018</a><span class="archive-list-count">4</span></li></ul>
         </div>
     </div>
 
@@ -320,9 +388,9 @@
             
                 
     <div class="widget-wrap widget-float">
-        <h3 class="widget-title">tag cloud</h3>
+        <h3 class="widget-title">etiqueta cloud</h3>
         <div class="widget tagcloud">
-            <a href="/tags/Machine-Learning/" style="font-size: 10px;">Machine Learning</a>
+            <a href="/tags/Machine-Learning/" style="font-size: 20px;">Machine Learning</a> <a href="/tags/life/" style="font-size: 10px;">life</a>
         </div>
     </div>
 
