@@ -9,19 +9,19 @@
     
         <meta name="keywords" content="Machine Learning" />
     
-    <meta name="description" content="常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ： 可以获得相关函">
+    <meta name="description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta name="keywords" content="Machine Learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Andrew Ng机器学习笔记之Octave教程">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/index.html">
 <meta property="og:site_name" content="JY Fang‘s Personal Blog">
-<meta property="og:description" content="常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ： 可以获得相关函">
+<meta property="og:description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/2018/05/07/Andrew%20Ng机器学习笔记之Octave教程/1525694909986.png">
-<meta property="og:updated_time" content="2018-05-07T12:32:25.399Z">
+<meta property="og:updated_time" content="2018-05-07T12:45:42.662Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Andrew Ng机器学习笔记之Octave教程">
-<meta name="twitter:description" content="常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ： 可以获得相关函">
+<meta name="twitter:description" content="[toc] 1.常见知识 不等于   ~= ，不是 != 使用ps1(“xxx”)=====&amp;gt;改变提示方式 加上分号(；)可以阻止打印 生成一个从1到2，步长为0.1的 行向量  rand（row，col）和randn（row，col）区别：后者为正态分布（高斯分布）  hist（）命令 ：生成一个直方图，可以看出，满足高斯分布  eye（n）：生成n阶单位矩阵  help 加上函数名  ：">
 <meta name="twitter:image" content="http://yoursite.com/2018/05/07/Andrew%20Ng机器学习笔记之Octave教程/1525694909986.png">
     
 
@@ -169,7 +169,8 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h2 id="常见知识"><a href="#常见知识" class="headerlink" title="常见知识"></a>常见知识</h2><ul>
+            <p>[toc]</p>
+<h2 id="1-常见知识"><a href="#1-常见知识" class="headerlink" title="1.常见知识"></a>1.常见知识</h2><ul>
 <li>不等于   ~= ，不是 !=</li>
 <li>使用ps1(“xxx”)=====&gt;改变提示方式</li>
 <li>加上分号(；)可以阻止打印</li>
@@ -235,7 +236,7 @@
 <ul>
 <li>pinv（A ）: 求A 的伪逆矩阵</li>
 </ul>
-<h2 id="画图"><a href="#画图" class="headerlink" title="画图"></a>画图</h2><ul>
+<h2 id="2-画图"><a href="#2-画图" class="headerlink" title="2.画图"></a>2.画图</h2><ul>
 <li>使用plot（）进行画，==》plot（t，y1），参数分别代表x轴和y轴<br><img src="./1525695383275.png" alt=""></li>
 </ul>
 <ul>
@@ -270,7 +271,7 @@
 <li><p>连续执行三个命令：使用，分隔开即可</p>
 </li>
 </ul>
-<h2 id="控制语句"><a href="#控制语句" class="headerlink" title="控制语句"></a>控制语句</h2><ul>
+<h2 id="3-控制语句"><a href="#3-控制语句" class="headerlink" title="3.控制语句"></a>3.控制语句</h2><ul>
 <li><p>for：i  = 1:10，end;   (代码的空格没有影响)<br><img src="./1525695576309.png" alt=""></p>
 </li>
 <li><p>同样的效果，使用indices代替1:10<br><img src="./1525695594079.png" alt=""></p>
@@ -280,7 +281,7 @@
 <li><p>disp( ):输出语句</p>
 </li>
 </ul>
-<h2 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h2><ul>
+<h2 id="4-函数"><a href="#4-函数" class="headerlink" title="4.函数"></a>4.函数</h2><ul>
 <li><p>添加搜索路径<br><img src="./1525695640818.png" alt=""></p>
 </li>
 <li><p>函数定义：<br><img src="./1525695658263.png" alt=""></p>
@@ -288,7 +289,7 @@
 <li><p>可以返回多个值：如上图</p>
 </li>
 </ul>
-<h2 id="向量化"><a href="#向量化" class="headerlink" title="向量化"></a>向量化</h2><ul>
+<h2 id="5-向量化"><a href="#5-向量化" class="headerlink" title="5.向量化"></a>5.向量化</h2><ul>
 <li><p>未向量化：（octave 下标从1开始）<br><img src="./1525695682796.png" alt=""></p>
 </li>
 <li><p>向量化<br><img src="./1525695697202.png" alt=""></p>
@@ -303,7 +304,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/" data-id="cjgw8hoij00010go4wx2xk3yy" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之Octave教程/" data-id="cjgw8s9ha00013oo4klk3x1o2" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
 <script>
     (function ($) {
         $('body').on('click', function() {

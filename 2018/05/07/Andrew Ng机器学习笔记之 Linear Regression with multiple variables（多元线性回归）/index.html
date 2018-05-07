@@ -9,19 +9,19 @@
     
         <meta name="keywords" content="Machine Learning" />
     
-    <meta name="description" content="1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度下降相比，多">
+    <meta name="description" content="[toc] 1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度">
 <meta name="keywords" content="Machine Learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）/index.html">
 <meta property="og:site_name" content="JY Fang‘s Personal Blog">
-<meta property="og:description" content="1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度下降相比，多">
+<meta property="og:description" content="[toc] 1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/1525673841557.png">
-<meta property="og:updated_time" content="2018-05-07T12:32:24.139Z">
+<meta property="og:updated_time" content="2018-05-07T12:46:02.695Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）">
-<meta name="twitter:description" content="1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度下降相比，多">
+<meta name="twitter:description" content="[toc] 1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式  2. Gradient descent （梯度下降–多元） 与单变量梯度">
 <meta name="twitter:image" content="http://yoursite.com/images/1525673841557.png">
     
 
@@ -169,7 +169,8 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h2><ul>
+            <p>[toc]</p>
+<h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h2><ul>
 <li>在<a href="https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/" target="_blank" rel="noopener">上一blog</a>中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。</li>
 <li>随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：<br><img src="/images/1525673841557.png" alt=""><br>转变为：<br><img src="/images/1525673865457.png" alt=""><br>ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式<br><img src="/images/1525674310202.png" alt=""></li>
 </ul>
@@ -216,7 +217,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）/" data-id="cjgw8hoig00000go4evla1rbv" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
+    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng机器学习笔记之 Linear Regression with multiple variables（多元线性回归）/" data-id="cjgw8s9h600003oo4tlxccwwv" class="article-share-link"><i class="fa fa-share"></i>Compartir</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
