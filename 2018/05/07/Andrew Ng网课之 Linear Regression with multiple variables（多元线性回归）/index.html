@@ -9,19 +9,19 @@
     
         <meta name="keywords" content="Machine Learning" />
     
-    <meta name="description" content="Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为">
+    <meta name="description" content="1.介绍 在上一blog&amp;lt;%- https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/ %&amp;gt;中，总结了关于">
 <meta name="keywords" content="Machine Learning">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Andrew Ng机器学习课程笔记之 Linear Regression with multiple variables（多元线性回归）">
 <meta property="og:url" content="http://yoursite.com/2018/05/07/Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）/index.html">
 <meta property="og:site_name" content="JY Fang‘s Personal Blog">
-<meta property="og:description" content="Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为">
+<meta property="og:description" content="1.介绍 在上一blog&amp;lt;%- https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/ %&amp;gt;中，总结了关于">
 <meta property="og:locale" content="default">
 <meta property="og:image" content="http://yoursite.com/images/1525673841557.png">
-<meta property="og:updated_time" content="2018-05-07T07:13:13.701Z">
+<meta property="og:updated_time" content="2018-05-07T07:23:30.674Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Andrew Ng机器学习课程笔记之 Linear Regression with multiple variables（多元线性回归）">
-<meta name="twitter:description" content="Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）1.介绍 在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。 随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：转变为：ps:为了方便，通常令x0 = 1，这样可以将上式表示为">
+<meta name="twitter:description" content="1.介绍 在上一blog&amp;lt;%- https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/ %&amp;gt;中，总结了关于">
 <meta name="twitter:image" content="http://yoursite.com/images/1525673841557.png">
     
 
@@ -71,13 +71,13 @@
                         <ul id="main-nav">
                             
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/">Accueil</a>
+                                    <a class="main-nav-list-link" href="/">Home</a>
                                 </li>
                             
                                         
                                     
                                 <li class="main-nav-list-item" >
-                                    <a class="main-nav-list-link" href="/about/index.html">À propos</a>
+                                    <a class="main-nav-list-link" href="/about/index.html">About</a>
                                 </li>
                             
                         </ul>
@@ -85,7 +85,7 @@
                             <div id="search-form-wrap">
 
     <form class="search-form">
-        <input type="text" class="ins-search-input search-form-input" placeholder="Rechercher" />
+        <input type="text" class="ins-search-input search-form-input" placeholder="Search" />
         <button type="submit" class="search-form-submit"></button>
     </form>
     <div class="ins-search">
@@ -104,9 +104,9 @@
 (function (window) {
     var INSIGHT_CONFIG = {
         TRANSLATION: {
-            POSTS: 'Articles',
+            POSTS: 'Posts',
             PAGES: 'Pages',
-            CATEGORIES: 'Catégories',
+            CATEGORIES: 'Categories',
             TAGS: 'Tags',
             UNTITLED: '(Untitled)',
         },
@@ -133,7 +133,7 @@
                         <div class="main-body-header">
     <h1 class="header">
     
-    Aucune catégorie
+    uncategorized
     </h1>
 </div>
                         <div class="main-body-content">
@@ -169,8 +169,8 @@
         
         
         <div class="article-entry" itemprop="articleBody">
-            <h1 id="Andrew-Ng网课之-Linear-Regression-with-multiple-variables（多元线性回归）"><a href="#Andrew-Ng网课之-Linear-Regression-with-multiple-variables（多元线性回归）" class="headerlink" title="Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）"></a>Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）</h1><h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h2><ul>
-<li>在上一blog中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。</li>
+            <h2 id="1-介绍"><a href="#1-介绍" class="headerlink" title="1.介绍"></a>1.介绍</h2><ul>
+<li>在上一blog&lt;%- <a href="https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/" target="_blank" rel="noopener">https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/</a> %&gt;中，总结了关于单变量线性回归的知识，本篇blog介绍的是当训练集中存在多个特征（feature）时，如何进行回归函数的拟合。</li>
 <li>随着特征的增加，假设函数h（）也发生了一些改变，具体如下表示：<br><img src="/images/1525673841557.png" alt=""><br>转变为：<br><img src="./1525673865457.png" alt=""><br>ps:为了方便，通常令x0 = 1，这样可以将上式表示为如下，转为两个向量相乘的紧缩表示形式<br><img src="/images/1525674310202.png" alt=""></li>
 </ul>
 <p>##2. Gradient descent （梯度下降–多元）</p>
@@ -199,7 +199,7 @@
 </li>
 </ul>
 <h2 id="6-学习率α的选取"><a href="#6-学习率α的选取" class="headerlink" title="6.学习率α的选取"></a>6.学习率α的选取</h2><ul>
-<li>已在上篇blog中有所介绍，需补充的是，作者建议，一般以3这个倍数来查看迭代次数iters 和J（θ）的图像来判断学习率α是否适当</li>
+<li>已在上篇blog&lt;%- <a href="https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/" target="_blank" rel="noopener">https://alexfanjn.github.io/2018/05/05/Andrew%20Ng%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%AF%BE%E7%A8%8B%E7%AC%94%E8%AE%B0%E4%B9%8B%E6%A2%AF%E5%BA%A6%E4%B8%8B%E9%99%8D/</a> %&gt;中有所介绍，需补充的是，作者建议，一般以3这个倍数来查看迭代次数iters 和J（θ）的图像来判断学习率α是否适当</li>
 </ul>
 <h2 id="7-伪逆矩阵"><a href="#7-伪逆矩阵" class="headerlink" title="7.伪逆矩阵"></a>7.伪逆矩阵</h2><ul>
 <li>当矩阵为不可逆时，一般情况下是没有逆矩阵的，但是，在octave中，可以使用pinv()命令来得到伪逆矩阵</li>
@@ -218,7 +218,7 @@
 
 
 
-    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）/" data-id="cjgvwtmj60003z0o4dx3am17w" class="article-share-link"><i class="fa fa-share"></i>Partager</a>
+    <a data-url="http://yoursite.com/2018/05/07/Andrew Ng网课之 Linear Regression with multiple variables（多元线性回归）/" data-id="cjgvx6llm000114o49ajbzgpj" class="article-share-link"><i class="fa fa-share"></i>Share</a>
 <script>
     (function ($) {
         $('body').on('click', function() {
@@ -298,7 +298,7 @@
                     <aside id="sidebar">
     <a class="sidebar-toggle" title="Expand Sidebar"><i class="toggle icon"></i></a>
     <div class="sidebar-top">
-        <p>suivre:</p>
+        <p>follow:</p>
         <ul class="social-links">
             
         </ul>
@@ -309,7 +309,7 @@
     
     
         <a href="/2018/05/05/Andrew Ng机器学习课程笔记之梯度下降/" id="article-nav-older" class="article-nav-link-wrap">
-        <strong class="article-nav-caption">- récent</strong>
+        <strong class="article-nav-caption">older</strong>
         <p class="article-nav-title">Andrew Ng机器学习课程笔记之梯度下降</p>
         <i class="icon fa fa-chevron-left" id="icon-chevron-left"></i>
         </a>
@@ -325,7 +325,7 @@
             
                 
     <div class="widget-wrap">
-        <h3 class="widget-title">récents</h3>
+        <h3 class="widget-title">recents</h3>
         <div class="widget">
             <ul id="recent-post" class="no-thumbnail">
                 
@@ -387,7 +387,7 @@
             
                 
     <div class="widget-wrap widget-list">
-        <h3 class="widget-title">liens</h3>
+        <h3 class="widget-title">links</h3>
         <div class="widget">
             <ul>
                 
