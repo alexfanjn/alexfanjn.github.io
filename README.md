@@ -1,2 +1,2 @@
 # alexfanjn.github.io
-# Personal website and blogs
+Personal website and blogs
