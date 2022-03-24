@@ -81,7 +81,7 @@ analytics:
 # Site Author
 author:
   name             : "Junyuan Fang"
-  avatar           : "/assets/images/profile.jpg"
+  avatar           : "profile.jpg"
   bio              : "PhD student@City University of Hong Kong"
   location         : "Hong Kong SAR"
   employer         :
