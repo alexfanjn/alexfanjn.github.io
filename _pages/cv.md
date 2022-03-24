@@ -9,51 +9,46 @@ redirect_from:
 
 {% include base_path %}
 
+The detailed [CV]() can be found here.
+
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
 
-Work experience
+* City University of Hong Kong,  Sept. 2020 - Jul. 2024 (expected)
+  * Ph.D in Electrical Engineering
+  * Supervisor: Prof. C. K. Michael Tse
+* Sun Yat-sen University, Sept. 2018 - Jul. 2020
+  * M.S. in Software Engineering
+  * GPA: 90.4/100, Overall Ranks: 4$^{th}$/172 (Top 2\%)
+  * Supervisor: Dr. Jiajing Wu and Prof. Zibin Zheng
+* Guangdong University of Technology, Sept. 2014 - Jul. 2018
+  * B.S. in Software Engineering
+  * GPA: 85.2/100, Ranks: 12$^{th}$/175 (Top 7\%)
+
+# Rewards
+
+- [Sept. 2021] Research Tuition Scholarship, CityU
+- [Aug. 2020] The Honorable Award in KDD Cup, 16$^{th}$/470, Team cccn
+- [Sept. 2019] The First Prize Scholarship, SYSU
+- [May 2019] Student Travel Grant for ISCAS
+- [June 2018] Outstanding Graduates of School of Computer Science, GDUT
+- [Sept. 2017] The Second Prize Scholarship, GDUT
+- [Sept. 2016] The Third Prize Scholarship, GDUT
+
+Service
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
+- Journal Reviewer: TCASII
+- Conference Reviewer: ISCAS2021, ISCAS2022
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
 
-Publications
-======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+* Python, Java
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+
+- EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021
+- GE2318: Complexlity in Science and Technology, Spring  2022
+
