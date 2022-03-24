@@ -14,14 +14,14 @@ The detailed CV can be found [here]().
 Education
 ======
 
-* City University of Hong Kong,  Sept. 2020 - Jul. 2024 (expected)
+* City University of Hong Kong,  Sept. 2020 - July 2024 (expected)
   * Ph.D. in Electrical Engineering, Department of Electrical Engineering
   * Advisor: Prof. C. K. Michael Tse
-* Sun Yat-sen University, Sept. 2018 - Jul. 2020
+* Sun Yat-sen University, Sept. 2018 - July 2020
   * M.S. in Software Engineering, School of Computer Science and Engineering
   * GPA: 90.4/100, Ranks: 4$^{th}$/172 (Top 2%)
   * Advisor: Dr. Jiajing Wu and Prof. Zibin Zheng
-* Guangdong University of Technology, Sept. 2014 - Jul. 2018
+* Guangdong University of Technology, Sept. 2014 - July 2018
   * B.S. in Software Engineering, School of Computer Science
   * GPA: 85.2/100, Ranks: 12$^{th}$/175 (Top 7%)
 
