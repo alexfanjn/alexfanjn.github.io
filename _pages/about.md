@@ -12,11 +12,11 @@ redirect_from:
 
 # About me
 
-Hi, I am Junyuan Fang. I am currently a second-year PhD student at City University of Hong Kong (CityU), where I am advised by Prof. [Chi K. Michael Tse](https://www.ee.cityu.edu.hk/~chitse/). I received the bachelor's degree from Guangdong  University of Technology (GDUT) in 2018, and the master’s degree from Sun Yat-sen University in 2020 supervised by Dr. [Jiajing Wu](https://cse.sysu.edu.cn/content/2575). My research interests are in the area of Graph Mining. More specifically, I am focused on the area of graph neural networks including their theory foundations, adversarial robustness and applications. I also have a strong passion for the robustness evaluation against cascading failures in Cyber-physical systems (CPS).
+Hi, I am Junyuan Fang. I am currently a second-year PhD student at City University of Hong Kong (CityU), where I am advised by Prof. [Chi K. Michael Tse](https://www.ee.cityu.edu.hk/~chitse/). I received the bachelor's degree from Guangdong  University of Technology (GDUT) in 2018, and the master’s degree from Sun Yat-sen University in 2020, supervised by Dr. [Jiajing Wu](https://cse.sysu.edu.cn/content/2575). My research interests are in the area of Graph Mining. More specifically, I am focused on the area of graph neural networks including their theory foundations, adversarial robustness and applications. I also have a strong passion for the robustness evaluation against cascading failures in Cyber-physical systems (CPS).
 
 # News
 
-- TBD
+- TBA
 
 # Rewards
 
@@ -30,4 +30,4 @@ Hi, I am Junyuan Fang. I am currently a second-year PhD student at City Universi
 
 # Talks
 
-- TBD
+- TBA
