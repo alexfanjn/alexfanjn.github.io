@@ -9,21 +9,21 @@ redirect_from:
 
 {% include base_path %}
 
-The detailed [CV]() can be found here.
+The detailed CV can be found [here]().
 
 Education
 ======
 
 * City University of Hong Kong,  Sept. 2020 - Jul. 2024 (expected)
-  * Ph.D in Electrical Engineering
-  * Supervisor: Prof. C. K. Michael Tse
+  * Ph.D. in Electrical Engineering, Department of Electrical Engineering
+  * Advisor: Prof. C. K. Michael Tse
 * Sun Yat-sen University, Sept. 2018 - Jul. 2020
-  * M.S. in Software Engineering
-  * GPA: 90.4/100, Overall Ranks: 4$^{th}$/172 (Top 2\%)
-  * Supervisor: Dr. Jiajing Wu and Prof. Zibin Zheng
+  * M.S. in Software Engineering, School of Computer Science and Engineering
+  * GPA: 90.4/100, Ranks: 4$^{th}$/172 (Top 2%)
+  * Advisor: Dr. Jiajing Wu and Prof. Zibin Zheng
 * Guangdong University of Technology, Sept. 2014 - Jul. 2018
-  * B.S. in Software Engineering
-  * GPA: 85.2/100, Ranks: 12$^{th}$/175 (Top 7\%)
+  * B.S. in Software Engineering, School of Computer Science
+  * GPA: 85.2/100, Ranks: 12$^{th}$/175 (Top 7%)
 
 # Rewards
 
@@ -35,20 +35,20 @@ Education
 - [Sept. 2017] The Second Prize Scholarship, GDUT
 - [Sept. 2016] The Third Prize Scholarship, GDUT
 
-Service
+Services
 ======
 
 - Journal Reviewer: TCASII
 - Conference Reviewer: ISCAS2021, ISCAS2022
-
-Skills
-======
-
-* Python, Java
 
 Teaching
 ======
 
 - EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021
 - GE2318: Complexlity in Science and Technology, Spring  2022
+
+Skills
+======
+
+* Python, Java
 
