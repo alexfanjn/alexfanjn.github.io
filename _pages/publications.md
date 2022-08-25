@@ -13,6 +13,7 @@ Note: * for corresponding author, \# for equal contribution.
 
 # Journal and Conference Papers
 
+- Haixian Wen, **Junyuan Fang**, Jiajing Wu* and Zibin Zheng, ''Hide and Seek: An Adversarial Hiding Approach against Phishing Detection on Ethereum'', in IEEE Transactions on Computational Social Systems (**TCSS**),  *to appear*. [[Paper coming soon]]()
 - **Junyuan Fang**, Dong Liu* and C. K. Tse, ''Predicting Onset Time of Cascading Failure in Power Systems Using a Neural Network-Based Classifier'', in IEEE International Symposium on Circuits and Systems (**ISCAS**), 2022. [[Paper]](https://scholars.cityu.edu.hk/en/publications/publication(4a39db3b-8a10-47f4-83d6-87f333795d17).html) [[Code]](https://github.com/alexfanjn/Cascading-failure-learning)
 - Weijun Ma, **Junyuan Fang** and Jiajing Wu*, ''Analyzing Robustness of Complex Networks Against Incomplete Information'', in IEEE Transactions on Circuits and Systems II: Express Briefs (**TCASII**), 2022. [[Paper]](https://ieeexplore.ieee.org/document/9739795)
 - **Junyuan Fang**, Haiyu Huang, Jiajing Wu* and C. K. Tse, ''Enhancing Robustness and Transmission Performance of Heterogeneous Complex Networks via Multi-Objective Optimization'', in IEEE Systems Journal (**ISJ**), 2021, [[Paper]](https://ieeexplore.ieee.org/abstract/document/9523789) [[Code]](https://github.com/hex-16/MOEA-Net-HL)

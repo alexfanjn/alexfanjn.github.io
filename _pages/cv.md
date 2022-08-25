@@ -44,8 +44,8 @@ Services
 Teaching
 ======
 
-- EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021
-- GE2318: Complexlity in Science and Technology, Spring  2022
+- EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021, Fall 2022
+- GE2318: Complexity in Science and Technology, Spring 2022
 
 Skills
 ======
