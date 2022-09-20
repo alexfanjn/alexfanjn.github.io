@@ -27,6 +27,7 @@ Education
 
 # Rewards
 
+- [Sept. 2022] Research Tuition Scholarship, CityU
 - [Sept. 2021] Research Tuition Scholarship, CityU
 - [Aug. 2020] The Honorable Award in KDD Cup, 16$^{th}$/470, Team cccn
 - [Sept. 2019] The First Prize Scholarship, SYSU
