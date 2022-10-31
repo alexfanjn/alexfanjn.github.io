@@ -30,7 +30,7 @@ Education
 - [09/2022] 3$^{rd}$/2058 in [ICDM 2022 Competition: Risk Commodities Detection on Large-Scale E-Commence Graphs](https://tianchi.aliyun.com/competition/entrance/531976/introduction?lang=en-us)
 - [09/2022] Research Tuition Scholarship, CityU
 - [09/2021] Research Tuition Scholarship, CityU
-- [08/2020] 16$^{th}$/500+, Honorable Award in [KDD Cup 2020 (Track: Adversarial Attacks and Defense on Academic Graph)](https://www.biendata.xyz/competition/kddcup_2020/)
+- [08/2020] 16$^{th}$/500+ (Honorable Award) in [KDD Cup 2020](https://www.biendata.xyz/competition/kddcup_2020/) (Track: Adversarial Attacks and Defense on Academic Graph)
 - [09/2019] The First Prize Scholarship, SYSU
 - [05/2019] Student Travel Grant for ISCAS
 - [06/2018] Outstanding Graduates of School of Computer Science, GDUT
