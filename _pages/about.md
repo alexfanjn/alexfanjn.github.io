@@ -18,5 +18,5 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
-- TBA
+- [10/2022] New preprint "[GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections](https://arxiv.org/abs/2210.12598)" and corresponding [[codes]](https://github.com/alexfanjn/gani) are available now.
 

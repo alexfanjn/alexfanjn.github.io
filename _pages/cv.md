@@ -27,14 +27,15 @@ Education
 
 # Rewards
 
-- [Sept. 2022] Research Tuition Scholarship, CityU
-- [Sept. 2021] Research Tuition Scholarship, CityU
-- [Aug. 2020] The Honorable Award in KDD Cup, 16$^{th}$/470, Team cccn
-- [Sept. 2019] The First Prize Scholarship, SYSU
-- [May 2019] Student Travel Grant for ISCAS
-- [June 2018] Outstanding Graduates of School of Computer Science, GDUT
-- [Sept. 2017] The Second Prize Scholarship, GDUT
-- [Sept. 2016] The Third Prize Scholarship, GDUT
+- [09/2022] 3$^{rd}$/2058 in [ICDM 2022 Competition: Risk Commodities Detection on Large-Scale E-Commence Graphs](https://tianchi.aliyun.com/competition/entrance/531976/introduction?lang=en-us)
+- [09/2022] Research Tuition Scholarship, CityU
+- [09/2021] Research Tuition Scholarship, CityU
+- [08/2020] 16$^{th}$/500+, Honorable Award in [KDD Cup 2020 (Track: Adversarial Attacks and Defense on Academic Graph)](https://www.biendata.xyz/competition/kddcup_2020/)
+- [09/2019] The First Prize Scholarship, SYSU
+- [05/2019] Student Travel Grant for ISCAS
+- [06/2018] Outstanding Graduates of School of Computer Science, GDUT
+- [09/2017] The Second Prize Scholarship, GDUT
+- [09/2016] The Third Prize Scholarship, GDUT
 
 Services
 ======

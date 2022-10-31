@@ -9,7 +9,7 @@ Note: * for corresponding author, \# for equal contribution.
 
 # Preprints
 
-- TBA
+- **Junyuan Fang**, Haixian Wen, Jiajing Wu*, Qi Xuan, Zibin Zheng, C. K. Tse, "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections", arXiv, 2022. [[Paper]](https://arxiv.org/abs/2210.12598) [[Code]](https://github.com/alexfanjn/gani)
 
 # Journal and Conference Papers
 
