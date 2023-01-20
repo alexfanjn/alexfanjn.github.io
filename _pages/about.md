@@ -18,5 +18,6 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
+- [01/2023] I am honored to be selected to attend [GYSS2023]( https://www.nrf.gov.sg/gyss/home) virtually.
 - [10/2022] New preprint "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections" and corresponding codes are available now. [[Paper]](https://arxiv.org/abs/2210.12598), [[Code]](https://github.com/alexfanjn/gani)
 
