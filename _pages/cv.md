@@ -14,7 +14,7 @@ The detailed CV can be found [here]().
 Education
 ======
 
-* City University of Hong Kong,  Sept. 2020 - July 2024 (expected)
+* City University of Hong Kong,  Sept. 2020 - Aug. 2024 (expected)
   * Ph.D. in Electrical Engineering, Department of Electrical Engineering
   * Advisor: Prof. C. K. Michael Tse
 * Sun Yat-sen University, Sept. 2018 - July 2020
@@ -40,7 +40,7 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS
+- Journal Reviewer: TCASII, JETCAS, IET Blockchain
 - Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023
 
 Teaching

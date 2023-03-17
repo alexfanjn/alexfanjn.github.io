@@ -13,6 +13,7 @@ Note: * for corresponding author, \# for equal contribution.
 
 # Journal and Conference Papers
 
+- **Junyuan Fang**, Dong Liu* and C. K. Tse, ''Impact of Structure of Network Based Data on Performance of Graph Neural Networks'', in IEEE International Symposium on Circuits and Systems (**ISCAS**), 2023. [[Paper coming soon]]() [[Code coming soon]]()
 - Haixian Wen, **Junyuan Fang**, Jiajing Wu* and Zibin Zheng, ''Hide and Seek: An Adversarial Hiding Approach against Phishing Detection on Ethereum'', in IEEE Transactions on Computational Social Systems (**TCSS**), 2022. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9893742)
 - **Junyuan Fang**, Dong Liu* and C. K. Tse, ''Predicting Onset Time of Cascading Failure in Power Systems Using a Neural Network-Based Classifier'', in IEEE International Symposium on Circuits and Systems (**ISCAS**), 2022. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9937800) [[Code]](https://github.com/alexfanjn/Cascading-failure-learning)
 - Weijun Ma, **Junyuan Fang** and Jiajing Wu*, ''Analyzing Robustness of Complex Networks Against Incomplete Information'', in IEEE Transactions on Circuits and Systems II: Express Briefs (**TCASII**), 2022. [[Paper]](https://ieeexplore.ieee.org/document/9739795)
