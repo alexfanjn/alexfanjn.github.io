@@ -41,7 +41,7 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Computer & Security
+- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing
 - Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023
 
 Teaching
