@@ -18,9 +18,9 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
-- [06/2023] One paper about the homophily and heterophily information aggregation for Ethereum account classification is accepted by JETCAS.
+- [06/2023] One paper about the homophily and heterophily information aggregation for Ethereum account classification is accepted by JETCAS. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10184005)
 - [06/2023] I am honored be selected to receive a 2023 IEEE CASS Student Travel Grant.
-- [01/2023] One paper about the impact of network topologies to the performance of GNNs is accepted by ISCAS2023.
+- [01/2023] One paper about the impact of network topologies to the performance of GNNs is accepted by ISCAS2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10182188), [[Code]](https://github.com/alexfanjn/Impact-analysis-of-network-structures)
 - [01/2023] I am honored to be selected to attend [GYSS2023]( https://www.nrf.gov.sg/gyss/home) virtually.
 - [10/2022] New preprint "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections" and corresponding codes are available now. [[Paper]](https://arxiv.org/abs/2210.12598), [[Code]](https://github.com/alexfanjn/gani)
 
