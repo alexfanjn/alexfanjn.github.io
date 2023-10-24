@@ -27,6 +27,7 @@ Education
 
 # Rewards
 
+- [09/2023] Research Tuition Scholarship, CityU
 - [06/2023] IEEE CASS Student Travel Grant for ISCAS 2023
 - [09/2022] 3$^{rd}$/2058 in [ICDM 2022 Competition: Risk Commodities Detection on Large-Scale E-Commence Graphs](https://tianchi.aliyun.com/competition/entrance/531976/introduction?lang=en-us)
 - [09/2022] Research Tuition Scholarship, CityU
@@ -41,13 +42,13 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing
-- Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023
+- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics
+- Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023, AIBC2023
 
 Teaching
 ======
 
-- EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021, Fall 2022
+- EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021, Fall 2022, Fall 2023
 - GE2318: Complexity in Science and Technology, Spring 2022
 - GE1354: Introduction to Electronic Design, Spring 2023
 
