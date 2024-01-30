@@ -9,10 +9,13 @@ Note: * for corresponding author, \# for equal contribution.
 
 # Preprints
 
-- **Junyuan Fang**, Haixian Wen, Jiajing Wu*, Qi Xuan, Zibin Zheng, C. K. Tse, "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections", arXiv, 2022. [[Paper]](https://arxiv.org/abs/2210.12598) [[Code]](https://github.com/alexfanjn/gani)
+- TBA
 
 # Journal and Conference Papers
 
+- **Junyuan Fang**, Haixian Wen, Jiajing Wu*, Qi Xuan, Zibin Zheng, C. K. Tse, "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections", in IEEE Transactions on Computational Social Systems (**TCSS**), 2024. [[arXiv]](https://arxiv.org/abs/2210.12598) [Paper] [[Code]](https://github.com/alexfanjn/gani)
+- Biwei Li, Dong Liu, **Junyuan Fang**, Xi Zhang, Chi K. Tse*, "Strengthening Critical Power Network Branches for Cascading Failure Mitigation", in IEEE International Symposium on Circuits and Systems (**ISCAS**), 2024. [Paper]
+- Jieli Liu, Jinze Chen, Jiajing Wu*, Zhiying Wu, **Junyuan Fang**, Zibin Zheng, "Fishing for Fraudsters: Uncovering Ethereum Phishing Gangs with Blockchain Data", in IEEE Transactions on Information Forensics & Security (**TIFS**), 2024. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10415200)
 - Han Yang#, **Junyuan Fang#**, Jiajing Wu* and  Zibin Zheng, ''Both Homophily and Heterophily Matter: Bi-path Aware Graph Neural Network for Ethereum Account Classification'', in IEEE Journal on Emerging and Selected Topics in Circuits and Systems (**JETCAS**), 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10184005)
 - **Junyuan Fang**, Dong Liu* and C. K. Tse, ''Impact of Structure of Network Based Data on Performance of Graph Neural Networks'', in IEEE International Symposium on Circuits and Systems (**ISCAS**), 2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10182188) [[Code]](https://github.com/alexfanjn/Impact-analysis-of-network-structures)
 - Haixian Wen, **Junyuan Fang**, Jiajing Wu* and Zibin Zheng, ''Hide and Seek: An Adversarial Hiding Approach against Phishing Detection on Ethereum'', in IEEE Transactions on Computational Social Systems (**TCSS**), 2022. [[Paper]](https://ieeexplore.ieee.org/abstract/document/9893742)

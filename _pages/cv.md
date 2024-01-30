@@ -42,14 +42,14 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics
-- Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023, AIBC2023
+- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics, TCSS
+- Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023, AIBC2023, ISCAS2024
 
 Teaching
 ======
 
 - EE6605: Complex Networks: Modeling, Dynamics and Control, Fall 2021, Fall 2022, Fall 2023
-- GE2318: Complexity in Science and Technology, Spring 2022
+- GE2318: Complexity in Science and Technology, Spring 2022, 2024 Spring
 - GE1354: Introduction to Electronic Design, Spring 2023
 
 Skills
