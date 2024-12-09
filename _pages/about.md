@@ -25,7 +25,7 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 - [01/2024] One collaborative paper about the detection of phishing gangs in Ethereum has been accepted by TIFS.
 
 <details> 
-    <summary> More details </summary> 
+    <summary> More news </summary> 
     <ul>
         <li> [09/2023] I am honored to be awarded the 2023 Research Tuition Scholarship at CityU. </li>
         <li> [06/2023] One paper about the homophily and heterophily information aggregation for Ethereum account classification has been accepted by JETCAS. <a href="https://ieeexplore.ieee.org/abstract/document/10184005">[Paper]</a> </li>
