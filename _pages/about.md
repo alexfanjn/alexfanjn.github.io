@@ -28,10 +28,10 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
     <summary> More details </summary> 
     <ul>
         <li> [09/2023] I am honored to be awarded the 2023 Research Tuition Scholarship at CityU. </li>
-        <li> [06/2023] One paper about the homophily and heterophily information aggregation for Ethereum account classification has been accepted by JETCAS. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10184005) </li>
-        <li> [06/2023] I am honored be selected to receive a 2023 IEEE CASS Student Travel Grant for attending ISCAS2023. </li>
-        <li> [01/2023] One paper about the impact of network topologies to the performance of GNNs has been accepted by ISCAS2023. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10182188), [[Code]](https://github.com/alexfanjn/Impact-analysis-of-network-structures) </li>
-        <li> [01/2023] I am honored to be invited to attend [GYSS2023](https://gyss.nrf.gov.sg/). </li>
-        <li> [10/2022] New preprint "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections" and corresponding codes are available now. [[Paper]](https://arxiv.org/abs/2210.12598), [[Code]](https://github.com/alexfanjn/gani) </li>
+        <li> [06/2023] One paper about the homophily and heterophily information aggregation for Ethereum account classification has been accepted by JETCAS. <a href="https://ieeexplore.ieee.org/abstract/document/10184005">[Paper]</a> </li>
+        <li> [06/2023] I am honored to be selected to receive a 2023 IEEE CASS Student Travel Grant for attending ISCAS2023. </li>
+        <li> [01/2023] One paper about the impact of network topologies to the performance of GNNs has been accepted by ISCAS2023. <a href="https://ieeexplore.ieee.org/abstract/document/10182188">[Paper]</a>, <a href="https://github.com/alexfanjn/Impact-analysis-of-network-structures">[Code]</a> </li>
+        <li> [01/2023] I am honored to be invited to attend <a href="https://gyss.nrf.gov.sg/">[GYSS2023]</a>. </li>
+        <li> [10/2022] New preprint "GANI: Global Attacks on Graph Neural Networks via Imperceptible Node Injections" and corresponding codes are available now. <a href="https://arxiv.org/abs/2210.12598">[Paper]</a>, <a href="https://github.com/alexfanjn/gani">[Code]</a> </li>
     </ul>
 </details>
