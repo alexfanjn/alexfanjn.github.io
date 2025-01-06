@@ -51,7 +51,7 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics, TCSS
+- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics, TCSS, TKDE
 - Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023, AIBC2023, ISCAS2024
 - Program Committee: ICONIP2024
 
