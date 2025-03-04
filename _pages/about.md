@@ -18,15 +18,16 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
-- [12/2024] One collaborative paper about studying the cascading failure propagation via failure propagation graphs has been accepted by SYSTJ. [[Paper]](x)
+- [02/2025] One paper about robust design analysis of graph neural networks has been accepted by TSMC. [[Paper]](xxx), [[Code]](https://github.com/alexfanjn/Impact-of-heterophilic-designs)
+- [12/2024] One collaborative paper about studying the cascading failure propagation via failure propagation graphs has been accepted by SYSTJ. [[Paper]](https://ieeexplore.ieee.org/document/10836957)
 - [12/2024] One collaborative paper about the soft label aggregation of GNNs in heterophilic networks has been accepted by KBS. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124014953)
 - [11/2024] One book chapter about account classification via graph neural networks is available now. [[Chapter]](https://link.springer.com/chapter/10.1007/978-981-97-4430-5_5)
 - [06/2024] I passed the oral examination for my Ph.D. degree!
-- [01/2024] One previous preprint about the imperceptible node injection attacks in graph neural networks has been accepted by TCSS. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10443466), [[Code]](https://github.com/alexfanjn/gani)
 
 <details> 
     <summary> More news </summary> 
     <ul>
+        <li>[01/2024] One previous preprint about the imperceptible node injection attacks in graph neural networks has been accepted by TCSS. <a href="https://ieeexplore.ieee.org/abstract/document/10443466">[Paper]</a>, <a href="https://github.com/alexfanjn/gani">[Code]</a> </li>
         <li> [01/2024] One collaborative paper about the mitigation of cascading failure in power network has been accepted by ISCAS2024. <a href="https://ieeexplore.ieee.org/abstract/document/10558306">[Paper]</a> </li>
         <li> [01/2024] One collaborative paper about the detection of phishing gangs in Ethereum has been accepted by TIFS. <a href="https://ieeexplore.ieee.org/abstract/document/10415200">[Paper]</a> </li>
         <li> [09/2023] I am honored to be awarded the 2023 Research Tuition Scholarship at CityU. </li>

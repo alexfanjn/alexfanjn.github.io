@@ -51,9 +51,21 @@ Education
 Services
 ======
 
-- Journal Reviewer: TCASII, JETCAS, IET Blockchain, Journal of Supercomputing, Nonlinear Dynamics, TCSS, TKDE
-- Conference Reviewer: ISCAS2021, ISCAS2022, ISCAS2023, ICONIP2023, AIBC2023, ISCAS2024
-- Program Committee: ICONIP2024
+- Journal Reviewer
+  - IEEE Transactions on Circuits and Systems II: Express Briefs
+  - IEEE Journal on Emerging and Selected Topics in Circuits and Systems
+  - IET Blockchain
+  - The Journal of Supercomputing
+  - Nonlinear Dynamics
+  - IEEE Transactions on Computational Social Systems
+  - IEEE Transactions on Knowledge and Data Engineering
+  - IEEE Transactions on Consumer Electronics
+- Conference Reviewer
+  - International Symposium on Circuits and Systems, 2021, 2022, 2023, 2024
+  - International Conference on Neural Information Processing, 2023
+  - Asia Service Sciences and Software Engineering Conference, 2023
+- Program Committee
+  -  International Conference on Neural Information Processing, 2024
 
 Teaching
 ======
