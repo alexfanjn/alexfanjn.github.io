@@ -18,8 +18,8 @@ Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
-- [04/2025] New preprint "Mitigating the Structural Bias in Graph Adversarial Defenses" are available now. [[arXiv]](https://arxiv.org/abs/2504.20848)
-- [04/2025] New preprint "Quantifying the Noise of Structural Perturbations on Graph Adversarial Attacks" are available now. [[arXiv]](https://arxiv.org/abs/2504.20869)
+- [04/2025] New preprint "Mitigating the Structural Bias in Graph Adversarial Defenses" is available now. [[arXiv]](https://arxiv.org/abs/2504.20848)
+- [04/2025] New preprint "Quantifying the Noise of Structural Perturbations on Graph Adversarial Attacks" is available now. [[arXiv]](https://arxiv.org/abs/2504.20869)
 - [02/2025] One paper about robust design analysis of graph neural networks has been accepted by TSMC. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10937261), [[Code]](https://github.com/alexfanjn/Impact-of-heterophilic-designs)
 - [12/2024] One collaborative paper about studying the cascading failure propagation via failure propagation graphs has been accepted by SYSTJ. [[Paper]](https://ieeexplore.ieee.org/document/10836957)
 - [12/2024] One collaborative paper about the soft label aggregation of GNNs in heterophilic networks has been accepted by KBS. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124014953)
