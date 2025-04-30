@@ -12,21 +12,23 @@ redirect_from:
 
 # About me
 
-Hi, I am Junyuan Fang (房俊源 in Chinese). I am currently a postdoctoral fellow at City University of Hong Kong (CityU), mentored by Prof. [Dapeng Oliver Wu](https://scholar.google.com/citations?user=sDRLr8gAAAAJ&hl=en). I obtained my Ph.D. degree from City University of Hong Kong (CityU) in 2024, advised by Prof. [C. K. Michael Tse](https://scholar.google.com/citations?user=Ax0J3TkAAAAJ&hl=en). Before that, I received the B.Eng. degree from Guangdong  University of Technology (GDUT) in 2018, and M.Eng. degree from Sun Yat-sen University (SYSU) in 2020, advised by Dr. [Jiajing Wu](https://scholar.google.com/citations?user=EaqeskUAAAAJ&hl=en) and Prof. [Zibin Zheng](https://scholar.google.com/citations?user=WPC6ED4AAAAJ&hl=en). My research interests are in the area of graph data mining. More specifically, I am focused on the area of graph neural networks including their theory foundations, adversarial robustness and applications. I also have a strong passion for the robustness optimization against cascading failures in Cyber-physical systems (CPS).
+Hi, I am Junyuan Fang (房俊源 in Chinese). I am currently a postdoctoral fellow at City University of Hong Kong (CityU), mentored by Prof. [Dapeng Oliver Wu](https://scholar.google.com/citations?user=sDRLr8gAAAAJ&hl=en). I obtained my Ph.D. degree from City University of Hong Kong (CityU) in 2024, advised by Prof. [C. K. Michael Tse](https://scholar.google.com/citations?user=Ax0J3TkAAAAJ&hl=en). Before that, I received the B.Eng. degree from Guangdong  University of Technology (GDUT) in 2018, and M.Eng. degree from Sun Yat-sen University (SYSU) in 2020, advised by Prof. [Jiajing Wu](https://scholar.google.com/citations?user=EaqeskUAAAAJ&hl=en) and Prof. [Zibin Zheng](https://scholar.google.com/citations?user=WPC6ED4AAAAJ&hl=en). My research interests are in the area of graph data mining. More specifically, I am focused on the area of graph neural networks including their theory foundations, adversarial robustness and applications. I also have a strong passion for the robustness optimization against cascading failures in Cyber-physical systems (CPS).
 
 Email: junyufang2-c [AT] my [DOT] cityu [DOT] edu [DOT] hk
 
 # News
 
-- [02/2025] One paper about robust design analysis of graph neural networks has been accepted by TSMC. [[Paper]](xxx), [[Code]](https://github.com/alexfanjn/Impact-of-heterophilic-designs)
+- [04/2025] New preprint "Mitigating the Structural Bias in Graph Adversarial Defenses" are available now. [[arXiv]](https://arxiv.org/abs/2504.20848)
+- [04/2025] New preprint "Quantifying the Noise of Structural Perturbations on Graph Adversarial Attacks" are available now. [[arXiv]](https://arxiv.org/abs/2504.20869)
+- [02/2025] One paper about robust design analysis of graph neural networks has been accepted by TSMC. [[Paper]](https://ieeexplore.ieee.org/abstract/document/10937261), [[Code]](https://github.com/alexfanjn/Impact-of-heterophilic-designs)
 - [12/2024] One collaborative paper about studying the cascading failure propagation via failure propagation graphs has been accepted by SYSTJ. [[Paper]](https://ieeexplore.ieee.org/document/10836957)
 - [12/2024] One collaborative paper about the soft label aggregation of GNNs in heterophilic networks has been accepted by KBS. [[Paper]](https://www.sciencedirect.com/science/article/pii/S0950705124014953)
-- [11/2024] One book chapter about account classification via graph neural networks is available now. [[Chapter]](https://link.springer.com/chapter/10.1007/978-981-97-4430-5_5)
-- [06/2024] I passed the oral examination for my Ph.D. degree!
 
 <details> 
     <summary> More news </summary> 
     <ul>
+        <li>[11/2024] One book chapter about account classification via graph neural networks is available now. <a href="https://link.springer.com/chapter/10.1007/978-981-97-4430-5_5">[Paper]</a></li>
+        <li>[06/2024] I passed the oral examination for my Ph.D. degree!</li>
         <li>[01/2024] One previous preprint about the imperceptible node injection attacks in graph neural networks has been accepted by TCSS. <a href="https://ieeexplore.ieee.org/abstract/document/10443466">[Paper]</a>, <a href="https://github.com/alexfanjn/gani">[Code]</a> </li>
         <li> [01/2024] One collaborative paper about the mitigation of cascading failure in power network has been accepted by ISCAS2024. <a href="https://ieeexplore.ieee.org/abstract/document/10558306">[Paper]</a> </li>
         <li> [01/2024] One collaborative paper about the detection of phishing gangs in Ethereum has been accepted by TIFS. <a href="https://ieeexplore.ieee.org/abstract/document/10415200">[Paper]</a> </li>

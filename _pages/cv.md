@@ -29,7 +29,7 @@ Education
 * Sun Yat-sen University, Sept. 2018 - July 2020
   * M.Eng. in Software Engineering, School of Computer Science and Engineering
   * GPA: 90.4/100, Ranks: 4$^{th}$/172 (Top 2%)
-  * Advisor: Dr. Jiajing Wu and Prof. Zibin Zheng
+  * Advisor: Prof. Jiajing Wu and Prof. Zibin Zheng
 * Guangdong University of Technology, Sept. 2014 - July 2018
   * B.Eng. in Software Engineering, School of Computer Science
   * GPA: 85.2/100, Ranks: 12$^{th}$/175 (Top 7%)
@@ -61,6 +61,7 @@ Services
   - IEEE Transactions on Knowledge and Data Engineering
   - IEEE Transactions on Consumer Electronics
 - Conference Reviewer
+  - ACM International Conference on Multimedia Retrieval, 2025
   - International Symposium on Circuits and Systems, 2021, 2022, 2023, 2024
   - International Conference on Neural Information Processing, 2023
   - Asia Service Sciences and Software Engineering Conference, 2023
